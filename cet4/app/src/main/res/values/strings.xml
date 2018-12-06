@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">四级君</string>
+    <string name="title_activity_clock">Activity_clock</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="acount_name">name.s</string>
+    <string name="now_clock">time.s</string>
+    <string name="allclock_list">allclocklist.json</string>
+    <string name="nowclock_list">nowclocklist.json</string>
+    <string name="allclockname">allclockname.s</string>
+    <string name="nowclockname">nowclockname.s</string>
+</resources>

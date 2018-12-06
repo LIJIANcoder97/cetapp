@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/yuan"/>
+        <ImageView
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:src="@drawable/verline"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/clockmode_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="计时1"
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:id="@+id/clockmode_time"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+
+            android:text="时间"/>
+    </LinearLayout>
+</LinearLayout>
